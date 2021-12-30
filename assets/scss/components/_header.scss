@@ -1,0 +1,137 @@
+/* ============= HEADER ============= */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--body-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 9%;
+
+  .navbar a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    display: inline-block;
+    margin: 0 1rem;
+
+    &:hover {
+      color: var(--first-color);
+    }
+  }
+
+  .button {
+    margin-top: 0;
+  }
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: bolder;
+
+  i {
+    color: var(--first-color);
+    padding-right: 0.5rem;
+  }
+}
+
+/* ============= NAVBAR ============= */
+// .nav {
+//   height: var(--header-height);
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+// .nav__logo,
+// .nav__toggle {
+//   color: var(--white-color);
+// }
+
+// .nav__logo {
+//   font-weight: var(--font-semi-bold);
+// }
+
+// .nav__toggle {
+//   font-size: 1.2rem;
+//   cursor: pointer;
+// }
+
+// .nav__menu {
+//   position: relative;
+// }
+
+// @media screen and (max-width: 767px) {
+//   .nav__menu {
+//     position: fixed;
+//     background-color: var(--body-color);
+//     top: 0;
+//     right: -100%;
+//     width: 70%;
+//     height: 100%;
+//     box-shadow: -1px 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
+//     padding: 3rem;
+//     transition: 0.4s;
+//   }
+// }
+
+// .nav__list {
+//   display: flex;
+//   flex-direction: column;
+//   row-gap: 2.5rem;
+// }
+
+// .nav__link {
+//   color: var(--text-color-light);
+//   font-weight: var(--font-semi-bold);
+//   text-transform: uppercase;
+// }
+
+// .nav__link:hover {
+//   color: var(--text-color);
+// }
+
+// .nav__close {
+//   position: absolute;
+//   top: 0.75rem;
+//   right: 1rem;
+//   font-size: 1.5rem;
+//   color: var(--title-color);
+//   cursor: pointer;
+// }
+
+// /* Show Menu */
+// .show-menu {
+//   right: 0;
+// }
+
+// /* Change background header */
+// .scroll-header {
+//   background-color: var(--body-color);
+//   box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
+// }
+
+// .scroll-header .nav__logo,
+// .scroll-header .nav__toggle {
+//   color: var(--title-color);
+// }
+
+// /* Active Link */
+// .active-link {
+//   position: relative;
+//   color: var(--title-color);
+// }
+
+// // ? membuat garis dibawah nav menu
+// .active-link::before {
+//   content: "";
+//   position: absolute;
+//   background-color: var(--title-color);
+//   width: 100%;
+//   height: 2px;
+//   bottom: -0.75rem;
+//   left: 0;
+// }

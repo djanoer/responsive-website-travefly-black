@@ -1,0 +1,24 @@
+/* ============= BUTTONS ============= */
+.button {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: var(--first-color);
+  border: var(--border);
+  border-radius: 5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.button:hover {
+  background: var(--first-color);
+  color: var(--first-color-second);
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: var(--white);
+  cursor: pointer;
+  display: none;
+}

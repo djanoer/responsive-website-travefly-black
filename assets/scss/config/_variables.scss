@@ -1,0 +1,73 @@
+/* ============= GOOGLE FONTS ============= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+/* ============= VARIABLE CSS ============= */
+:root {
+  --header-height: 3rem;
+
+  /* ========== Colors ========= */
+  /* Change favorite color to match images */
+  /* https://www.w3schools.com/colors/colors_hsl.asp */
+  // --hue-color: 190;
+
+  /* HSL color mode */
+  --first-color: hsl(179, 70%, 51%);
+  --first-color-second: hsl(0, 0%, 7%);
+  // --first-color-alt: hsl(var(--hue-color), 64%, 15%);
+  // --title-color: hsl(var(--hue-color), 64%, 18%);
+  // --text-color: hsl(var(--hue-color), 24%, 35%);
+  // --text-color-light: hsl(var(--hue-color), 8%, 60%);
+  // --input-color: hsl(var(--hue-color), 24%, 97%);
+  --light-color: #aaa;
+  --body-color: hsl(0, 0%, 13%);
+  --body-color-black: rgba(17, 17, 17, 0.7);
+  --white: #fff;
+  --border: 0.2rem solid var(--first-color);
+  // --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  // --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
+
+  /* ======== Fonts and Typography ======== */
+  --body-font: "Poppins", sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /* ======== Font Weight ======== */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* ======== Margenes Bottom ======== */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /* ======== z index ======== */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /* ======== Hover Overlay ======== */
+  --img-transition: 0.3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
