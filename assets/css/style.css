@@ -24,36 +24,9 @@
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
   /* ======== Font Weight ======== */
-  --font-medium: 500;
-  --font-semi-bold: 600;
   /* ======== Margenes Bottom ======== */
-  --mb-0-25: 0.25rem;
-  --mb-0-5: 0.5rem;
-  --mb-0-75: 0.75rem;
-  --mb-1: 1rem;
-  --mb-1-25: 1.25rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
   /* ======== z index ======== */
-  --z-tooltip: 10;
-  --z-fixed: 100;
   /* ======== Hover Overlay ======== */
-  --img-transition: 0.3s;
-  --img-hidden: hidden;
-  --img-scale: scale(1.1);
-}
-
-@media screen and (min-width: 968px) {
-  :root {
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.75rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
-    --smaller-font-size: 0.813rem;
-  }
 }
 
 /* ============= BASE ============= */
@@ -140,30 +113,6 @@ body.dark-theme {
 }
 
 /*======= REUSABLE CSS CLASSES =======*/
-.section {
-  padding: 4.5rem 0 2.5rem;
-}
-
-.section__title {
-  font-size: var(--h2-font-size);
-  color: var(--title-color);
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: var(--mb-2);
-}
-
-.container {
-  max-width: 968px;
-  margin-left: var(--mb-1);
-  margin-right: var(--mb-1);
-}
-
-.grid {
-  display: -ms-grid;
-  display: grid;
-  gap: 1.5rem;
-}
-
 /* ============= SCROLL UP ============= */
 .scrollup {
   position: fixed;
@@ -811,5 +760,58 @@ body.dark-theme {
   .banner .content h3 {
     font-size: 2.7rem;
   }
+}
+
+/*=========== BOOKING FORM ===========*/
+.book-form {
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: -5rem;
+  background: var(--body-color);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+          box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+  padding: 3rem 2rem;
+}
+
+.book-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.book-form form .input-box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25rem;
+          flex: 1 1 25rem;
+}
+
+.book-form form .input-box span {
+  font-size: 1.4rem;
+  color: var(--light-color);
+}
+
+.book-form form .input-box input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--light-color);
+  text-transform: none;
+  background: none;
+  margin-top: 1rem;
+}
+
+.book-form form .button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 15rem;
+          flex: 1 1 15rem;
 }
 /*# sourceMappingURL=style.css.map */
