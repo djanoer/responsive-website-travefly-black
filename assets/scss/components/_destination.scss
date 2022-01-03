@@ -1,0 +1,71 @@
+/* ============= DESTINATION ============= */
+.destination__heading {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  span {
+    color: var(--first-color);
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: var(--white);
+  }
+}
+
+.destination .box-container {
+  @include grid(27rem);
+
+  .destination__box {
+    border-radius: 1rem;
+    overflow: hidden;
+    background: var(--body-color);
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
+    .destination__image {
+      height: 20rem;
+      overflow: hidden;
+      width: 100%;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .destination__content {
+      padding: 2rem;
+      text-align: center;
+
+      h3 {
+        font-size: 2rem;
+        color: var(--white);
+      }
+
+      p {
+        padding: 1rem 0;
+        font-size: 1.4rem;
+        color: var(--light-color);
+        line-height: 2;
+      }
+
+      a {
+        font-size: 1.7rem;
+        color: var(--first-color);
+
+        &:hover {
+          padding-left: 1rem;
+        }
+
+        i {
+          padding-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
