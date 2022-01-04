@@ -1,17 +1,10 @@
 /* ============= DESTINATION ============= */
-.destination__heading {
-  text-align: center;
-  margin-bottom: 2rem;
+// @use "../base/base" as *;
 
-  span {
-    color: var(--first-color);
-    font-size: 2rem;
-  }
-
-  h1 {
-    font-size: 4rem;
-    color: var(--white);
-  }
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 1.5rem;
 }
 
 .destination .box-container {

@@ -1,4 +1,18 @@
 /*======= REUSABLE CSS CLASSES =======*/
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  span {
+    color: var(--first-color);
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: var(--white);
+  }
+}
 // .section {
 //   padding: 4.5rem 0 2.5rem;
 // }

@@ -1,0 +1,35 @@
+/* ============= SERVICES ============= */
+
+.services .box-container {
+  @include grid(32rem);
+
+  .box {
+    background: var(--body-color);
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    border: 0.2rem solid var(--second-color);
+
+    &:hover {
+      border: var(--border);
+    }
+
+    i {
+      font-size: 4rem;
+      color: var(--first-color);
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+      color: var(--white);
+    }
+
+    p {
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      color: var(--light-color);
+      line-height: 2;
+    }
+  }
+}

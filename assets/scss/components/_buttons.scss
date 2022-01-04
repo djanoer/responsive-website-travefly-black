@@ -9,12 +9,17 @@
   border-radius: 5rem;
   cursor: pointer;
   background: none;
+
+  &:hover {
+    background: var(--first-color);
+    color: var(--second-color);
+  }
 }
 
-.button:hover {
-  background: var(--first-color);
-  color: var(--first-color-second);
-}
+// .button:hover {
+//   background: var(--first-color);
+//   color: var(--first-color-second);
+// }
 
 #menu-btn {
   font-size: 2.5rem;
